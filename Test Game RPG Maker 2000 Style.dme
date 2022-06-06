@@ -13,7 +13,10 @@
 // END_PREFERENCES
 
 // BEGIN_INCLUDE
+#include "GeneratePlayerIcon.dm"
 #include "Login.dm"
+#include "Movement.dm"
+#include "OverlayObjects.dm"
 #include "turf.dm"
 #include "World.dm"
 #include "Skin.dmf"

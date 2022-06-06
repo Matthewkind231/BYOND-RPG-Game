@@ -1,18 +1,14 @@
 mob {
-	proc {
-
-		selectBodyType(var/mob/m) {
-
-			m.icon = pick('Whitebody.dmi','Blackbody.dmi');
-
-		}
-
-	}
+	player
 	Login() {
-
-		usr.loc = locate(1,1,1);
-		selectBodyType(usr);
+		var/mob/player/p = usr;
+		p.loc = locate(1,1,1);
+		p << "Welcome [p]!"
+		p.baseBody = pick('Whitebody.dmi','Blackbody.dmi');
+		p << "Your baseBody is [p.baseBody]!"
+		iconHandler.selectIcon(p,eyeList);
 
 	}
-
 }
+
+// Body doesn't show up. Figure out the issue.
