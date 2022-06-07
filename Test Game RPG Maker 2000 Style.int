@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ZOOM: 1.000
-LAST_COMPILE_TIME: 1654475574
+LAST_COMPILE_TIME: 1654618563
 AUTO_FILE_DIR: ON
 MAP_ICON_TYPE: 0
 LAST_COMPILE_VERSION: 513.1527
-WINDOW: turf.dm;whitespace.dmi;World.dmm;Login.dm;Whitebody.dmi;Blackbody.dmi;World.dm;Skin.dmf;Movement.dm;sample_eyes.png;Eyes.dmi;OverlayObjects.dm;GeneratePlayerIcon.dm
-FILE: GeneratePlayerIcon.dm
+WINDOW: turf.dm;whitespace.dmi;World.dmm;Login.dm;Whitebody.dmi;Blackbody.dmi;World.dm;Skin.dmf;Movement.dm;sample_eyes.png;Eyes.dmi;OverlayObjects.dm;GeneratePlayerIcon.dm;Hairs.dmi;girl_hair_1.png;man_hair_1.png;man_hair_2.png;man_hair_3.png;man_hair_4.png;man_hair_6.png;man_hair_5.png;man_hair_7.png;man_hair_8.png;girl_hair_2.png;girl_hair_3.png;girl_hair_4.png;girl_hair_5.png;girl_hair_6.png;girl_hair_7.png;girl_hair_8.png
+FILE: girl_hair_8.png
 */
 // END_INTERNALS

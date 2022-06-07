@@ -1,13 +1,15 @@
 mob {
 	player
+		verb {
+			Reboot() {
+				world.Reboot();
+			}
+		}
 	Login() {
 		var/mob/player/p = usr;
 		p.loc = locate(1,1,1);
-		p << "Welcome [p]!"
 		p.baseBody = pick('Whitebody.dmi','Blackbody.dmi');
-		p << "Your baseBody is [p.baseBody]!"
-		iconHandler.selectIcon(p,eyeList);
-
+		iconHandler.selectIcon(p);
 	}
 }
 

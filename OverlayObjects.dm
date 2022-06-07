@@ -2,6 +2,12 @@ obj {
 
 	Overlay_Objects {
 
+		Hairs {
+			icon = 'Hairs.dmi';
+			Male_Hair_1 {
+				icon_state = "hair1";
+			}
+		}
 		Eyes {
 
 			icon = 'Eyes.dmi';
